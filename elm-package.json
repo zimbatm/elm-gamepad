@@ -1,11 +1,13 @@
 {
-    "version": "0.1.0",
+    "version": "1.0.0",
     "summary": "Access to the Gamepad API in pure Elm",
     "repository": "https://github.com/zimbatm/elm-gamepad.git",
     "license": "MIT",
-    "source-directories": [ "src" ],
+    "source-directories": [
+        "src"
+    ],
     "exposed-modules": [
-      "Gamepad"
+        "Gamepad"
     ],
     "native-modules": true,
     "dependencies": {
