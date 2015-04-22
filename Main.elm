@@ -50,7 +50,7 @@ gamepadsToArrows gamepads =
               case List.head rest of
                 Nothing -> Debug.crash "No y axis2"
                 -- I would prefer to keep the floats to be honest
-                Just y -> Debug.log "gamepad" { x=(round x), y=(-1 * round y) }
+                Just y -> { x=(round x), y=(-1 * round y) }
 
 delta = Signal.map (\t -> t/20) (fps 60)
 
